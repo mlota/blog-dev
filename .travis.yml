@@ -1,7 +1,10 @@
 language: ruby
-script: "./build.sh" # execute this script on each commit
+script: "./build.sh"
 branches:
   only:
-  - jekyll # only take into account `jekyll' branch
+  - jekyll
 rvm:
-- 2.2.3 # version of `ruby'
+- 2.2.3
+env:
+  global:
+    secure: UqbVpWrkIe4TGreSCHGlXw+x9yLTBmE4y1F0vzIyYW3oVaey3KNgBP9LxmjCPZDLTt/ySshtiPrGLFAS/+Z05ZnpL159/EFGp9x1/IDSskrHXSudJ7Uh0X+ttC/T2n1x/5kzuR1s3UnGM6SLHCqKOyKstmNnAzQKygk0i0PcPQYXjyqH/XN5kC63P1B7ILQxE76iRC72dbsrDsKySImQhSEdFob06ziwCZVM9eTiumXWtqIIXguwie+2tpjWTGDjjLConje4zNSBb8fR+jLuqYONQKR6QSgGeEm9qWCszSZ/Xo/j9v+xgGsdXMdT0NTA7I1UUDcdMXgSXJx2ZhLimIWDNi83pzk8KzbrXRlc2Yp/CVoLUL1YhBJJ2Tp2xxqRZnvry0AxAhwJ7EMQGEMrmQo+XWg8t5I2rlywtJ2HD4+pY//F3AYzvLFePTHa0q4kQsB1hS52P+7UiuYW9OFVFK3jhnUvJ6wABjerMU5ZfdQl+D/VcB/ktQvrjGMwkPvbWRq+6JaXXBZNlK36xOWijqKr+H7LDwdILemsP0030PPGSAS4FbBqT+dRfvb/3jtQjkoSK1GqVU6MPR7IEyPsW/vQfG3K29k5Kl3DVQXsj7YEy/3tG6DJe+Wpx30i+Gi1XRtV7QDQhWsyppdGrkV6jtM2gZjvWxRJwpTDyturzAE=
